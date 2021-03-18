@@ -1,0 +1,203 @@
+div {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.header-wrapper {
+    padding: 6px;
+}
+.header{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-buttons {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding-left: 19px;
+}
+#images-button {
+    padding-right: 15px;
+}
+.header-buttons:hover {
+    text-decoration: underline;
+}
+.menu-icon {
+    color: #5f6368;
+    opacity: 1;
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+.menu-icon:hover {
+    cursor: pointer;
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+#menu-avatar-spacer {
+    padding: 4px;
+}
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding: 4px;
+    padding-left: 4px;
+}
+.avatar:hover {
+    cursor: pointer;
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+#logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: 290px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+#logo-wrap {
+    display: block;
+    height: 100%;
+    max-height: 92px;
+    margin-top: auto;
+}
+#logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    object-position: center;
+}
+.function-padding {
+    padding: 20px;
+}
+.function-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchbar-wrapper:hover {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    border-color: rgba(223,225,229) !important;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border: 1px solid;
+    z-index: 3;
+    background-color: #fff;
+}
+.searchbar-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    border-color: rgba(223,225,229) !important;
+    border: 1px solid;
+    z-index: 3;
+    background-color: #fff;
+}
+form {
+    height: 44px;
+    width: 548px;
+}
+#searchbar {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    height: 34px;
+    border: none;
+    border-color: transparent;
+    margin-top: 5px;
+    margin-left: 11px;
+    width: 97%;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+input:focus {
+    outline: none !important;
+}
+.loupe-wrapper {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 20px;
+    padding-left: 11px;
+}
+.loupe {
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    color: #9aa0a6;
+    fill: rgb(154, 160, 166);
+    display: block;
+}
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    width: 584px;
+}
+.button {
+    background-color: rgb(248, 249, 250);
+    border: 1px solid #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: #3c4043;
+}
+.button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.bottom-section {
+    width: 100%;
+    height: 406px;
+}
+.language-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+#language-text {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+.language-links {
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: arial,sans-serif;
+}
