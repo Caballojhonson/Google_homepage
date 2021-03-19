@@ -1,6 +1,20 @@
-div {
+/*Fix .loupe resize before uncommenting div*/
+/*div {
     flex-shrink: 0;
     box-sizing: border-box;
+}*/
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body, html {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .header-wrapper {
     padding: 6px;
@@ -200,4 +214,28 @@ input:focus {
     margin-bottom: 24px;
     text-align: center;
     font-family: arial,sans-serif;
+}
+.country-footer {
+    display: block;
+    background-color: rgb(242, 242, 242);;
+    font-family: arial,sans-serif;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;    
+    align-content: center;
+    background-color: rgb(242, 242, 242);;
+    font-family: arial,sans-serif;
+    padding: 0px 20px;
+}
+.links-left, .links-right {
+    display: flex;
+}
+.links-left>a, .links-right>a {
+    color: #70757a;
+    padding: 15px;
 }
