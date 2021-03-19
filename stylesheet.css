@@ -226,7 +226,7 @@ input:focus {
 }
 .footer-wrapper {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-between;    
     align-content: center;
     background-color: rgb(242, 242, 242);;
     font-family: arial,sans-serif;
